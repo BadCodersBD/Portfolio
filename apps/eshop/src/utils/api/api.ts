@@ -4,7 +4,7 @@ import Cookies from 'universal-cookie'
 
 export const apiSetup = async () => {
   const api: AxiosInstance = axios.create({
-    baseURL: 'https://carrentalserver.vercel.app/api',
+    baseURL: 'https://beachlimodb.vercel.app/api',
   })
   const cookie = new Cookies()
   const accessToken = cookie.get('token')
